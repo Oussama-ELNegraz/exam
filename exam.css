@@ -6,6 +6,7 @@ height: 110px;
 background-color: rgb(143, 130, 130);
 
 }
+
 #logobox{
     text-align: center;
 width: 25%;
@@ -157,7 +158,8 @@ width: 40%;
 padding: 2%;
 
 }
-
+article p{font-size: auto;
+}
  }
 
 
