@@ -1,0 +1,166 @@
+*{padding: 0px;
+margin: 0px;
+}
+header{
+height: 110px;
+background-color: rgb(143, 130, 130);
+
+}
+#logobox{
+    text-align: center;
+width: 25%;
+height: 100%;
+float: left;
+background-color: black;
+
+}
+#h1{color: white;
+    float: bottom;
+    
+  /*  text-align:center;*/
+}
+.imglogo{
+  width: 70px;
+    border-radius: 50% ;
+    height: 60%;
+    float: top;
+  
+}
+
+div{
+    direction: rtl;
+  width: 75%;
+  height: 110px;
+  text-align: center;
+  float: right;
+  
+line-height: 100px;
+}
+div a{
+color: white;
+direction: rtl;
+margin: 0px 5%;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+word-spacing: 3px;
+letter-spacing: 0.5px;
+
+
+}
+
+main{
+    height: 500px;
+animation:m 10s infinite  ;
+}
+@keyframes m {
+0%{  background-color:beige; }
+50%{background-color:yellow;}
+100%{background-color:yellowgreen;}
+ }
+aside{ text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+ 
+background-color: white;
+float: right;
+height: 500px;
+width: 35%;
+
+ }
+
+#cc{text-align: center;
+height: 500px;
+width: 65%;
+float: left;
+text-align: center;
+position: relative;
+
+}
+#oo{
+height: 170px;
+width: 220px;
+background-color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+    
+}
+#p{padding-top:15px ;
+  
+margin: 7px 4px 0px;
+
+font-weight: bold;
+font-size: 20px;
+border-top:4px solid  ;
+
+
+}
+footer{text-align: center; 
+}
+footer img{
+    resize: both;
+      width: 32%;
+      overflow: auto;
+  }
+div a:hover{
+background-color: white;
+padding: 50px;
+height: 100px;
+color: blue;
+ }
+ #fot{
+     margin-top: 15px;
+ }
+ @media only screen and (max-width:825px) and (min-width:552px){
+header{ height: 200px;}
+#logobox{width: 100%;height: 100px;float: top;display:flex;justify-content: center;} 
+.imglogo{ margin: 15px; direction: rtl;} 
+ 
+header h1{   line-height: 100px; float: right; }
+div{
+    width: 100%;height: 100px;
+}
+
+div a:hover{padding: 39px;}
+}
+
+
+ 
+@media only screen and (max-width:552px)   {
+
+    header{height: 400px;}
+    #logobox{width: 100%;height: 100px;float: top;display:flex;justify-content: center;} 
+.imglogo{ margin: 15px; direction: rtl;} 
+ 
+header h1{   line-height: 100px; float: right; }
+div{
+    width: 100%;height: 100px;
+}
+div a{ height: 100;}
+div a:hover{padding: 0px;}
+}
+
+@media only screen and (orientation:portrait){
+div a {display: block; border:1px double black ;
+    margin: 0px;
+    padding-bottom: 0px;
+
+}
+header{
+    height: 405px;
+}
+
+#table img{
+width: 40%;
+padding: 2%;
+
+}
+
+ }
+
+
+
+
+
